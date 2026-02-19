@@ -111,7 +111,7 @@ SwapCase:
 
 
 loop:
-    lb $s1, 0($s0)  #t1 holds teh actual value 
+    lbu $s1, 0($s0)  #t1 holds teh actual value 
     beq $s1, $zero, done
 
     #if statment that checks upper
